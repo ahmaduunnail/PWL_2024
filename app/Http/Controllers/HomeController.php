@@ -11,4 +11,9 @@ class HomeController extends Controller
     {
         return "Selamat Datang";
     }
+
+    public function homePos()
+    {
+        return view('awal_pos');
+    }
 }
